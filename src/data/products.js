@@ -1,12 +1,13 @@
 export const products = [
   {
     id: 1,
-    name: "Urban Explorer Backpack",
+    name: "Skybags Samurai Ninja Backpack",
     category: "School Bag",
-    price: 49.99,
-    rating: 4.8,
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "A durable and stylish backpack perfect for daily campus life."
+    originalPrice: 1800,
+    price: 900,
+    rating: 4.9,
+    image: "/skybags-ninja.png",
+    description: "Cool black and red Skybags backpack featuring a samurai ninja design."
   },
   {
     id: 2,

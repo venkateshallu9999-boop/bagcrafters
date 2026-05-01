@@ -18,7 +18,10 @@ const ProductCard = ({ product }) => {
         <div className="product-category">{product.category}</div>
         <h3 className="product-name">{product.name}</h3>
         <div className="product-meta">
-          <span className="product-price">${product.price.toFixed(2)}</span>
+          <div className="product-price-container">
+            {product.originalPrice && <span className="original-price">₹{product.originalPrice.toFixed(2)}</span>}
+            <span className="product-price">₹{product.price.toFixed(2)}</span>
+          </div>
           <div className="product-rating">
             <Star size={14} className="star-icon" fill="currentColor" />
             <span>{product.rating}</span>
