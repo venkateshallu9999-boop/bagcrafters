@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-container">
         <Link to="/" className="navbar-logo">
-          Bag<span>Crafters</span>
+          Gowrishanker <span>Luggage World</span>
         </Link>
 
         <div className="navbar-links desktop-only">

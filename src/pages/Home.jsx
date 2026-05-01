@@ -83,7 +83,7 @@ const Home = () => {
       <footer className="footer">
         <div className="container footer-container">
           <div className="footer-content">
-            <h3>BagCrafters</h3>
+            <h3>Gowrishanker Luggage World</h3>
             <p>Premium bags for the modern explorer.</p>
           </div>
           <div className="footer-contact">
@@ -94,7 +94,7 @@ const Home = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2026 BagCrafters. All rights reserved.</p>
+          <p>&copy; 2026 Gowrishanker Luggage World. All rights reserved.</p>
         </div>
       </footer>
     </div>
