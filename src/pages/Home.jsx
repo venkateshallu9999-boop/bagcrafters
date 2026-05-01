@@ -81,7 +81,19 @@ const Home = () => {
 
       {/* Footer */}
       <footer className="footer">
-        <div className="container">
+        <div className="container footer-container">
+          <div className="footer-content">
+            <h3>BagCrafters</h3>
+            <p>Premium bags for the modern explorer.</p>
+          </div>
+          <div className="footer-contact">
+            <h4>Contact Us</h4>
+            <p><strong>Name:</strong> Allu Venkatesh</p>
+            <p><strong>Email:</strong> <a href="mailto:venkateshallu9999@gmail.com">venkateshallu9999@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:9392225336">9392225336</a></p>
+          </div>
+        </div>
+        <div className="footer-bottom">
           <p>&copy; 2026 BagCrafters. All rights reserved.</p>
         </div>
       </footer>
